@@ -1,0 +1,99 @@
+.body{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+    height: 1px;
+    background-color: gray;
+}
+
+.hache1{
+    //font-weight: 500;
+    font-size: 3.75em;
+    margin-bottom: 0.25em;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+h4 {
+    width: 520px;
+    text-align: left;
+}
+
+p {
+    text-align: left;
+    width: 325px;
+}
+
+#subtitulo{
+    text-align: right;
+    color: white;
+    width: 320px;
+}
+
+.subtitulo{
+    font-weight: 100;
+    width: 320px;
+}
+
+.tocenter{
+    text-align: right;
+}
+
+.unalinea{
+    display: inline-block;
+}
+
+.alineado{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 2rem;
+}
+
+.textocentrado{
+    text-align: center;
+    padding: 30px;
+}
+
+.caracteristicas{
+    text-align: center;
+    margin: 25px;
+}
+
+.margentop{
+    margin-top: 35px;
+}
+
+.preciocentrado{
+    text-align: center;
+    color: $white;
+    padding-top: 280px;
+}
+
+.grilla{
+    display: grid;
+}
+
+.flex{
+    display: flex;
+}
+
+.trekin{
+    padding-top: 120px;
+    padding-left: 50px;
+   
+}
+
+.padgrafico{
+    width: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+

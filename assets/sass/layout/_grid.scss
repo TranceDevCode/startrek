@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+}
+
+.videos{
+    display: flex;
+    //flex-direct8ion: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.contenidoizqueirdo{
+   display: inline-block;
+}
+
+@media screen and (min-width: 400px){
+    .contenidoizqueirdo{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+    }
+    .padgrafico{
+        text-align: center;
+    }
+    
+}

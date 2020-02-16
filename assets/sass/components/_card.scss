@@ -1,0 +1,18 @@
+.pricegraph{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 2rem;
+}
+
+.pricecard{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 2rem;
+    margin-top: 75px;
+}
